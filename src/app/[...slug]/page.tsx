@@ -7,7 +7,7 @@ import { getPageByRoute, getRouteManifest, getSiteConfig } from "@/utils/content
 import { normalizeRoute, routeToSlugSegments, slugSegmentsToRoute } from "@/utils/routes";
 
 interface RoutePageProps {
-  params: { slug: string[] };
+  params: Promise<{ slug: string[] }>;
 }
 
 export const dynamicParams = false;
@@ -21,7 +21,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: RoutePageProps): Promise<Metadata> {
-  const { slug } = params;
+  const { slug } = await params;
   const route = slugSegmentsToRoute(slug);
 
   const [site, page] = await Promise.all([getSiteConfig(), getPageByRoute(route)]);
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: RoutePageProps): Promise<Meta
 }
 
 export default async function RoutePage({ params }: RoutePageProps) {
-  const { slug } = params;
+  const { slug } = await params;
   const route = slugSegmentsToRoute(slug);
 
   const [site, page] = await Promise.all([getSiteConfig(), getPageByRoute(route)]);
