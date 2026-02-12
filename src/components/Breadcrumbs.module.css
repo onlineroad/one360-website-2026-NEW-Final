@@ -13,17 +13,17 @@
   padding: 0;
   list-style: none;
   font-size: 0.84rem;
-  color: #60656c;
+  color: rgba(234, 242, 255, 0.62);
 }
 
 .link {
-  color: #44505f;
+  color: rgba(234, 242, 255, 0.82);
   text-decoration: none;
 }
 
 .link:hover,
 .link:focus-visible {
-  color: #2f8b22;
+  color: var(--one360-green);
 }
 
 .separator {

@@ -5,9 +5,9 @@
 }
 
 .inner {
-  background: linear-gradient(135deg, #f2fff0, #f8fff7);
-  border: 1px solid #dcefd8;
-  border-radius: 1rem;
+  background: linear-gradient(135deg, rgba(12, 18, 28, 0.94), rgba(16, 24, 36, 0.9));
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: var(--one360-radius-lg);
   padding: 1.2rem 1.15rem;
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@
 
 .text {
   margin: 0;
-  color: #1f2a1d;
+  color: var(--one360-ink);
   font-size: 1rem;
   font-weight: 700;
 }
@@ -27,9 +27,15 @@
   border: 0;
   border-radius: 999px;
   text-decoration: none;
-  background: #5aba47;
-  color: #0f2509;
-  padding: 0.58rem 0.95rem;
+  background: linear-gradient(135deg, var(--one360-green), var(--one360-green-deep));
+  color: #061507;
+  padding: 0.64rem 1rem;
   font-size: 0.86rem;
   font-weight: 800;
+  transition: transform 180ms ease;
+}
+
+.button:hover,
+.button:focus-visible {
+  transform: translateY(-2px);
 }

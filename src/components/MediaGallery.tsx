@@ -1,41 +1,43 @@
 import type { MediaAsset } from "@/types/content";
 import styles from "@/components/MediaGallery.module.css";
+import { buildCaption, isVideoUrl, uniqueMediaBySource } from "@/utils/page-media";
 
 interface MediaGalleryProps {
   media: MediaAsset[];
   title?: string;
 }
 
-function isVideo(url: string): boolean {
-  return /\.(mp4|webm|mov|m4v)$/i.test(url);
-}
-
 export function MediaGallery({ media, title = "Gallery" }: MediaGalleryProps) {
-  if (media.length === 0) {
+  const images = uniqueMediaBySource(media).filter((asset) => !isVideoUrl(asset.sourceUrl)).slice(0, 16);
+
+  if (images.length === 0) {
     return null;
   }
 
-  const unique = Array.from(new Map(media.map((item) => [item.sourceUrl, item])).values()).slice(0, 12);
+  const columns = [0, 1, 2, 3].map((column) => images.filter((_, index) => index % 4 === column));
 
   return (
     <section className={styles.gallery} id="gallery">
-      <h2 className={styles.title}>{title}</h2>
-      <div className={styles.grid}>
-        {unique.map((asset) => (
-          <article className={styles.card} key={asset.sourceUrl}>
-            {isVideo(asset.sourceUrl) ? (
-              <video className={styles.video} controls preload="none">
-                <source src={asset.localOriginal ?? asset.sourceUrl} />
-              </video>
-            ) : (
-              <img
-                src={asset.localOriginal ?? asset.sourceUrl}
-                alt={asset.alt || "ONE360 media"}
-                className={styles.image}
-                loading="lazy"
-              />
-            )}
-          </article>
+      <div className={styles.heading}>
+        <h2 className={styles.title}>{title}</h2>
+        <p className={styles.subtitle}>Real moments from premium events across Australia.</p>
+      </div>
+
+      <div className={styles.masonry}>
+        {columns.map((columnAssets, columnIndex) => (
+          <div className={`${styles.column} ${styles[`column${columnIndex + 1}`]}`} key={`column-${columnIndex}`}>
+            {columnAssets.map((asset) => (
+              <figure className={styles.card} key={asset.sourceUrl}>
+                <img
+                  src={asset.localOriginal ?? asset.sourceUrl}
+                  alt={asset.alt || "ONE360 gallery image"}
+                  className={styles.image}
+                  loading="lazy"
+                />
+                <figcaption className={styles.caption}>{buildCaption(asset)}</figcaption>
+              </figure>
+            ))}
+          </div>
         ))}
       </div>
     </section>

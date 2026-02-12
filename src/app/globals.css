@@ -35,8 +35,8 @@
 :root {
   --font-body: "Inter", sans-serif;
   --font-heading: "Cardo", serif;
-  --bg: #ffffff;
-  --text: #161d27;
+  --bg: radial-gradient(circle at 10% -20%, #1b2738 0%, #07090d 55%);
+  --text: var(--one360-ink);
 }
 
 * {
@@ -48,12 +48,16 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: var(--font-body);
   color: var(--text);
   background: var(--bg);
+  background-attachment: fixed;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -68,4 +72,9 @@ video {
 
 main {
   min-height: 40vh;
+}
+
+::selection {
+  background: rgba(100, 215, 79, 0.32);
+  color: #fff;
 }

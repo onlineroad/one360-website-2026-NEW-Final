@@ -1,50 +1,159 @@
 .section {
   max-width: 1200px;
-  margin: 2.3rem auto 0;
+  margin: 2.8rem auto 0;
   padding: 0 1rem;
 }
 
-.title {
-  margin: 0 0 0.9rem;
-  font-family: var(--font-body);
-  font-size: clamp(1.4rem, 2vw, 1.8rem);
+.head {
+  display: grid;
+  gap: 1rem;
 }
 
-.grid {
+.title {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+  max-width: 16ch;
+  color: var(--one360-ink);
+}
+
+.title span {
+  color: var(--one360-green);
+}
+
+.lead {
+  margin: 0;
+  color: var(--one360-ink-muted);
+  line-height: 1.58;
+  max-width: 72ch;
+}
+
+.linkGrid {
+  margin-top: 1.1rem;
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 0.85rem;
 }
 
-.card {
+.serviceCard {
   display: block;
   text-decoration: none;
-  border: 1px solid #e7edf3;
-  border-radius: 0.9rem;
-  padding: 1rem;
-  background: #fff;
-  color: #0f1f2f;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: var(--one360-radius-md);
+  padding: 1rem 0.95rem;
+  background: rgba(13, 20, 30, 0.84);
+  color: var(--one360-ink);
+  transform: translateY(0);
+  transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
 }
 
-.card:hover,
-.card:focus-visible {
-  border-color: #5aba47;
+.serviceCard:hover,
+.serviceCard:focus-visible {
+  border-color: rgba(100, 215, 79, 0.72);
+  transform: translateY(-3px);
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.34);
 }
 
 .cardTitle {
   margin: 0;
   font-weight: 800;
-  font-size: 1rem;
+  font-size: 1.03rem;
 }
 
 .cardMeta {
-  margin: 0.45rem 0 0;
-  color: #526172;
+  margin: 0.48rem 0 0;
+  color: rgba(234, 242, 255, 0.72);
   font-size: 0.92rem;
 }
 
+.eventGrid {
+  margin-top: 1.3rem;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.eventCard {
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--one360-radius-md);
+  background: linear-gradient(140deg, rgba(9, 14, 22, 0.9), rgba(14, 20, 32, 0.74));
+  padding: 0.95rem 0.78rem;
+  transition: border-color 220ms ease, transform 220ms ease;
+}
+
+.eventCard:hover {
+  border-color: rgba(100, 215, 79, 0.5);
+  transform: translateY(-3px);
+}
+
+.glyph {
+  margin: 0;
+  color: var(--one360-green);
+  font-size: 1.12rem;
+}
+
+.eventTitle {
+  margin: 0.3rem 0 0.2rem;
+  color: var(--one360-ink);
+  font-size: 1rem;
+}
+
+.eventMeta {
+  margin: 0;
+  color: rgba(234, 242, 255, 0.76);
+  font-size: 0.91rem;
+  line-height: 1.52;
+}
+
+.featureSplit {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.7rem;
+}
+
+.featurePanel {
+  margin: 0;
+  border-radius: var(--one360-radius-lg);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: var(--one360-shadow-md);
+  min-height: 280px;
+}
+
+.featureImage {
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  object-fit: cover;
+  display: block;
+  transition: transform 420ms ease;
+}
+
+.featurePanel:hover .featureImage {
+  transform: scale(1.04);
+}
+
 @media (min-width: 800px) {
-  .grid {
+  .linkGrid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .eventGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .featureSplit {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .head {
+    grid-template-columns: 1.2fr 1fr;
+    align-items: end;
   }
 }

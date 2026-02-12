@@ -1,6 +1,7 @@
 import type { PageContent, SiteConfig } from "@/types/content";
 import { createBreadcrumbSchema, createFaqSchema, createLocalBusinessSchema } from "@/seo/schema";
 import { extractTestimonialsFromContent, stripDetailsFromContent } from "@/utils/html";
+import { getHeroVideoForPage } from "@/utils/page-media";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CtaBanner } from "@/components/CtaBanner";
 import { FaqAccordion } from "@/components/FaqAccordion";
@@ -48,6 +49,7 @@ export function PageTemplate({ page, site }: PageTemplateProps) {
       href: child.href,
       summary: serviceCardSummaries[child.href] ?? "Discover this ONE360 service."
     })) ?? [];
+  const heroVideo = isHome(page.route) || page.templateType === "service" ? getHeroVideoForPage(page) : undefined;
   const testimonials =
     page.testimonials && page.testimonials.length > 0
       ? page.testimonials
@@ -59,13 +61,21 @@ export function PageTemplate({ page, site }: PageTemplateProps) {
       {faqSchema ? <JsonLd data={faqSchema} /> : null}
       {localBusinessSchema ? <JsonLd data={localBusinessSchema} /> : null}
 
-      <Hero title={page.h1} eyebrow={page.eyebrow} intro={page.intro} />
+      <Hero
+        title={page.h1}
+        eyebrow={page.eyebrow}
+        intro={page.intro}
+        videoUrl={heroVideo}
+        isServicePage={page.templateType === "service"}
+      />
       <Breadcrumbs items={page.breadcrumbs} />
 
       {isHome(page.route) ? <ServiceCards items={serviceCards} /> : null}
+      {page.templateType === "service" || page.templateType === "landing" ? (
+        <TrustStrip media={page.media} />
+      ) : null}
 
       <RichContent html={stripDetailsFromContent(page.contentHtml)} />
-      {page.templateType === "service" || page.templateType === "landing" ? <TrustStrip /> : null}
       <MediaGallery media={page.media} title="Gallery" />
       <Testimonials items={testimonials} />
 

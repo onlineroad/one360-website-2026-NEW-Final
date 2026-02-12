@@ -2,15 +2,16 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(0, 0, 0, 0.92);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(7, 11, 17, 0.78);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--one360-divider);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
 }
 
 .inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0.85rem 1rem;
+  padding: 0.78rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,7 +22,7 @@
   display: inline-flex;
   align-items: center;
   text-decoration: none;
-  color: #fff;
+  color: var(--one360-ink);
   font-weight: 700;
   font-size: 1.05rem;
   letter-spacing: 0.02em;
@@ -33,9 +34,9 @@
 }
 
 .menuButton {
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: transparent;
-  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  background: rgba(8, 13, 20, 0.58);
+  color: var(--one360-ink);
   border-radius: 999px;
   padding: 0.4rem 0.75rem;
   font-size: 0.85rem;
@@ -59,24 +60,46 @@
 }
 
 .link {
-  color: #f9f9f9;
+  color: rgba(234, 242, 255, 0.9);
   text-decoration: none;
   font-size: 0.9rem;
   line-height: 1;
-  padding: 0.35rem 0;
+  padding: 0.38rem 0;
   display: inline-block;
+  position: relative;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.18rem;
+  width: 0;
+  height: 2px;
+  background: var(--one360-green);
+  transition: width 180ms ease;
 }
 
 .link:hover,
 .link:focus-visible {
-  color: #5aba47;
+  color: var(--one360-green);
+}
+
+.link:hover::after,
+.link:focus-visible::after {
+  width: 100%;
 }
 
 .cta {
-  border: 1px solid #5aba47;
-  color: #5aba47;
+  border: 1px solid var(--one360-green);
+  color: var(--one360-green);
   padding: 0.5rem 0.85rem;
   border-radius: 999px;
+  background: rgba(100, 215, 79, 0.08);
+}
+
+.cta::after {
+  display: none;
 }
 
 .dropdown {
@@ -84,8 +107,8 @@
   top: calc(100% + 0.65rem);
   left: 0;
   min-width: 210px;
-  background: #0a0a0a;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(9, 14, 22, 0.96);
+  border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 0.75rem;
   padding: 0.5rem;
   list-style: none;
@@ -105,7 +128,7 @@
 
 .dropdown a {
   display: block;
-  color: #f1f1f1;
+  color: rgba(234, 242, 255, 0.94);
   text-decoration: none;
   border-radius: 0.5rem;
   padding: 0.45rem 0.5rem;
@@ -113,8 +136,8 @@
 
 .dropdown a:hover,
 .dropdown a:focus-visible {
-  background: rgba(90, 186, 71, 0.12);
-  color: #5aba47;
+  background: rgba(100, 215, 79, 0.12);
+  color: var(--one360-green);
 }
 
 .mobileNav {
@@ -136,7 +159,7 @@
 }
 
 .mobileLink {
-  color: #fff;
+  color: var(--one360-ink);
   text-decoration: none;
   display: inline-flex;
   font-size: 0.95rem;
@@ -144,7 +167,7 @@
 
 .mobileLink:hover,
 .mobileLink:focus-visible {
-  color: #5aba47;
+  color: var(--one360-green);
 }
 
 .mobileSubmenu {

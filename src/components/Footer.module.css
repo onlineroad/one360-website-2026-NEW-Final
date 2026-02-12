@@ -1,13 +1,13 @@
 .footer {
-  background: #f8f9fb;
-  border-top: 1px solid #e8ecf1;
+  background: linear-gradient(180deg, rgba(8, 12, 18, 0.92), rgba(6, 9, 14, 1));
+  border-top: 1px solid var(--one360-divider);
   margin-top: 4rem;
 }
 
 .inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 3rem 1rem 2rem;
+  padding: 3rem 1rem 2.2rem;
 }
 
 .brandRow {
@@ -36,12 +36,12 @@
 .contact,
 .locations,
 .copyright {
-  color: #333;
+  color: rgba(234, 242, 255, 0.82);
   font-size: 0.95rem;
 }
 
 .cta a {
-  color: #2f8b22;
+  color: var(--one360-green);
   text-decoration: none;
   font-weight: 700;
 }
@@ -58,16 +58,19 @@
 }
 
 .socials a {
-  color: #2f8b22;
+  color: var(--one360-green);
   text-decoration: none;
-  border: 1px solid rgba(47, 139, 34, 0.35);
+  border: 1px solid rgba(100, 215, 79, 0.4);
   border-radius: 999px;
-  padding: 0.35rem 0.7rem;
+  padding: 0.4rem 0.74rem;
   font-size: 0.85rem;
+  background: rgba(100, 215, 79, 0.06);
+  transition: background 180ms ease, color 180ms ease, border-color 180ms ease;
 }
 
 .socials a:hover,
 .socials a:focus-visible {
-  color: #fff;
-  background: #2f8b22;
+  color: #041406;
+  background: var(--one360-green);
+  border-color: var(--one360-green);
 }

@@ -5,15 +5,20 @@
 }
 
 .card {
-  background: #fff;
-  border: 1px solid #e5ebf0;
-  border-radius: 1rem;
-  padding: 1rem;
-  box-shadow: 0 10px 30px rgba(20, 35, 20, 0.06);
+  background: linear-gradient(140deg, rgba(8, 12, 18, 0.95), rgba(12, 18, 28, 0.92));
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: var(--one360-radius-xl);
+  padding: 1.1rem;
+  box-shadow: var(--one360-shadow-md);
 }
 
 .note {
   margin: 0 0 0.8rem;
-  color: #2d3946;
+  color: var(--one360-ink);
   font-weight: 700;
+}
+
+.card :global(.hs-form-field),
+.card :global(.hs-submit) {
+  margin-bottom: 0.9rem !important;
 }

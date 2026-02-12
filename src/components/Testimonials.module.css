@@ -8,13 +8,15 @@
   margin: 0 0 1rem;
   font-family: var(--font-body);
   font-size: clamp(1.4rem, 2vw, 1.8rem);
+  color: var(--one360-ink);
 }
 
 .viewport {
   overflow: hidden;
-  border-radius: 0.95rem;
-  border: 1px solid #e6ebf0;
-  background: #f8fbff;
+  border-radius: var(--one360-radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: linear-gradient(145deg, rgba(12, 18, 28, 0.9), rgba(9, 14, 22, 0.95));
+  box-shadow: var(--one360-shadow-md);
 }
 
 .track {
@@ -29,14 +31,14 @@
 
 .quote {
   margin: 0;
-  color: #27303a;
+  color: rgba(234, 242, 255, 0.86);
   line-height: 1.7;
   font-style: italic;
 }
 
 .author {
   margin-top: 0.7rem;
-  color: #1f3a1a;
+  color: var(--one360-green);
   font-size: 0.9rem;
   font-weight: 700;
 }
@@ -48,9 +50,9 @@
 }
 
 .controlButton {
-  border: 1px solid #d2dae3;
-  background: #fff;
-  color: #243140;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(11, 16, 24, 0.8);
+  color: rgba(234, 242, 255, 0.9);
   border-radius: 999px;
   font: inherit;
   font-size: 0.9rem;
@@ -59,7 +61,7 @@
 }
 
 .controlButton:hover {
-  border-color: #5aba47;
+  border-color: var(--one360-green);
 }
 
 .dots {
@@ -73,11 +75,11 @@
   height: 0.5rem;
   border-radius: 999px;
   border: none;
-  background: #c6d0dc;
+  background: #6e7d93;
   cursor: pointer;
   padding: 0;
 }
 
 .dotActive {
-  background: #5aba47;
+  background: var(--one360-green);
 }

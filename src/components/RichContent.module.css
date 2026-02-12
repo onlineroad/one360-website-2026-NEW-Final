@@ -5,9 +5,14 @@
 }
 
 .prose {
-  color: #1d252f;
+  color: var(--one360-ink);
   line-height: 1.7;
   font-size: 1rem;
+  border-radius: var(--one360-radius-xl);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: linear-gradient(150deg, rgba(9, 13, 20, 0.94), rgba(14, 21, 32, 0.88));
+  padding: clamp(1rem, 2vw, 1.4rem);
+  box-shadow: var(--one360-shadow-md);
 }
 
 .prose h2,
@@ -30,11 +35,11 @@
 .prose p,
 .prose li {
   font-size: 1rem;
-  color: inherit;
+  color: rgba(234, 242, 255, 0.84);
 }
 
 .prose a {
-  color: #2a8022;
+  color: var(--one360-green);
 }
 
 .prose img,
@@ -46,10 +51,10 @@
 
 .prose blockquote {
   margin: 1.1rem 0;
-  border-left: 3px solid #5aba47;
+  border-left: 3px solid var(--one360-green);
   padding: 0.6rem 0.95rem;
-  background: #f5fbf4;
-  border-radius: 0.5rem;
+  background: rgba(100, 215, 79, 0.1);
+  border-radius: 0.7rem;
 }
 
 .prose ul,
@@ -79,7 +84,7 @@
 }
 
 .prose :global(.wp-block-cover__background) {
-  opacity: 0.42 !important;
+  opacity: 0.52 !important;
 }
 
 .prose :global(.has-base-2-background-color),
@@ -88,7 +93,7 @@
 }
 
 .prose :global(.has-base-2-background-color) {
-  background: #f4f7fb;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .prose :global(.has-contrast-background-color),
@@ -107,7 +112,7 @@
 .prose :global(.has-contrast-color),
 .prose :global(.has-contrast-1-color),
 .prose :global(.has-contrast-3-color) {
-  color: #1d252f;
+  color: var(--one360-ink);
 }
 
 .prose :global(.has-contrast-background-color) a,

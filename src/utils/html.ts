@@ -331,6 +331,8 @@ export function transformContentHtml(html: string): string {
 export function stripDetailsFromContent(html: string): string {
   return html
     .replace(/<h1[\s\S]*?<\/h1>/gi, "")
+    .replace(/<div[^>]*class="[^"]*wp-block-cover[^"]*"[^>]*>[\s\S]*?wp-block-cover__video-background[\s\S]*?<\/div>\s*<\/div>/gi, "")
+    .replace(/<div[^>]*class="[^"]*wp-block-columns[^"]*"[^>]*>[\s\S]*?wp-block-cb-carousel[\s\S]*?<\/div>\s*<\/div>/gi, "")
     .replace(/<div[^>]*id="reviews"[\s\S]*?<\/div>\s*<\/div>/gi, "")
     .replace(/<div[^>]*id="gallery"[\s\S]*?<\/div>\s*<\/div>/gi, "")
     .replace(/<div[^>]*id="instagram-gallery-feed-[^"]*"[\s\S]*?<\/div>/gi, "")

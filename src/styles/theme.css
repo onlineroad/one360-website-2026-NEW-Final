@@ -1,6 +1,17 @@
 :root {
-  --one360-green: #5aba47;
-  --one360-black: #111111;
-  --one360-white: #ffffff;
-  --one360-muted: #636363;
+  --one360-green: #64d74f;
+  --one360-green-deep: #49b938;
+  --one360-night: #07090d;
+  --one360-night-soft: #0e1219;
+  --one360-surface: #0f151f;
+  --one360-surface-2: #151f2b;
+  --one360-ink: #eaf2ff;
+  --one360-ink-muted: #a9b7cc;
+  --one360-divider: rgba(255, 255, 255, 0.1);
+  --one360-glass: rgba(12, 18, 28, 0.58);
+  --one360-shadow-lg: 0 28px 80px rgba(0, 0, 0, 0.5);
+  --one360-shadow-md: 0 16px 34px rgba(0, 0, 0, 0.35);
+  --one360-radius-xl: 24px;
+  --one360-radius-lg: 18px;
+  --one360-radius-md: 14px;
 }
