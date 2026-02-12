@@ -1,0 +1,43 @@
+{
+  "siteUrl": "https://one360.com.au",
+  "siteName": "ONE360",
+  "logo": "/images/one360-logo.png",
+  "nav": [
+    { "label": "Home", "href": "/" },
+    {
+      "label": "Services",
+      "href": "/360-video-booth-hire/",
+      "children": [
+        { "label": "Video Booth Hire", "href": "/360-video-booth-hire/" },
+        { "label": "GlamBot Hire", "href": "/glambot-hire/" },
+        { "label": "Green Screen Hire", "href": "/one360-revolve-green-screen-hire/" }
+      ]
+    },
+    { "label": "Wedding Car Hire", "href": "/wedding-car-hire-sydney/" },
+    { "label": "Gallery", "href": "/#gallery" },
+    { "label": "Blogs", "href": "/blogs/" },
+    {
+      "label": "Locations",
+      "href": "/locations/",
+      "children": [
+        { "label": "Sydney", "href": "/sydney-360-video-booth-hire/" },
+        { "label": "Melbourne", "href": "/melbourne-360-video-booth-hire/" }
+      ]
+    },
+    { "label": "Book Now", "href": "/book/", "isCta": true }
+  ],
+  "socials": [
+    { "label": "Facebook", "href": "https://www.facebook.com/one360booth/" },
+    { "label": "Instagram", "href": "https://www.instagram.com/one360/?hl=en" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/company/one360-au/" },
+    { "label": "YouTube", "href": "https://www.youtube.com/channel/UC7QmL3rPz7b1di0u2t7bKFg" },
+    { "label": "TikTok", "href": "https://www.tiktok.com/@one360_au?lang=en" }
+  ],
+  "contact": {
+    "phoneRaw": "tel:0451360212",
+    "phoneDisplay": "0451 360 212",
+    "email": "info@one360.com.au",
+    "locationsLine": "SYDNEY | BRISBANE | MELBOURNE"
+  },
+  "footerDescription": "ONE360 is a 360° video experience service that captures high-quality, immersive videos at events, allowing guests to create shareable memories instantly."
+}

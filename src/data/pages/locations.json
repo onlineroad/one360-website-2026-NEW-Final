@@ -1,0 +1,30 @@
+{
+  "id": "locations",
+  "route": "/locations/",
+  "templateType": "utility",
+  "noindex": false,
+  "seo": {
+    "title": "Locations - ONE360",
+    "description": "Locations - ONE360",
+    "canonical": "https://one360.com.au/locations/"
+  },
+  "h1": "Locations",
+  "eyebrow": "Locations",
+  "intro": "ONE360 services Sydney, Melbourne and Brisbane.",
+  "contentHtml": "<section><h2>Where We Operate</h2><p>ONE360 operates across <strong>Sydney</strong>, <strong>Melbourne</strong>, and <strong>Brisbane</strong>. Use the location pages below to view city-specific service details.</p><ul><li><a href=\"/sydney-360-video-booth-hire/\">Sydney 360 Video Booth Hire</a></li><li><a href=\"/melbourne-360-video-booth-hire/\">Melbourne 360 Video Booth Hire</a></li></ul></section>",
+  "media": [],
+  "faq": [],
+  "testimonials": [],
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Locations",
+      "href": "/locations/"
+    }
+  ],
+  "internalLinks": [],
+  "hasHubspotForm": false
+}

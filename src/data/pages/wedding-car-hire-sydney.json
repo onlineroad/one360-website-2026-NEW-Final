@@ -1,0 +1,99 @@
+{
+  "id": "wedding-car-hire-sydney",
+  "route": "/wedding-car-hire-sydney/",
+  "templateType": "service",
+  "noindex": false,
+  "seo": {
+    "title": "Wedding Car Hire Sydney - ONE360",
+    "description": "Wedding Car Hire Sydney",
+    "canonical": "https://one360.com.au/wedding-car-hire-sydney/"
+  },
+  "h1": "Our Fleet",
+  "eyebrow": "Bespoke Service",
+  "intro": "Wedding Car Hire Sydney",
+  "contentHtml": "<div class=\"entry-content wp-block-post-content has-background has-base-2-background-color has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained\">\n<div class=\"wp-block-columns alignfull has-contrast-background-color has-background is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex\">\n<div class=\"wp-block-column is-layout-flow wp-block-column-is-layout-flow\" style=\"flex-basis:100%\">\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Our Fleet | One360 Luxury Car Hire Sydney</title>\n    \n</head>\n<body>\n    <div class=\"hero\">\n        <p class=\"subtitle\" style=\"margin-bottom: 2rem;\">Wedding Car Hire Sydney</p>\n        <h1>Our Fleet</h1>\n        <p class=\"subtitle\">Luxury Car Hire · Sydney</p>\n    </div>\n\n    <div class=\"container\">\n        <div class=\"intro\">\n            At <strong>One360</strong>, we curate an exceptional collection of the world&#8217;s most prestigious vehicles for the most important moments of your life. From intimate weddings to grand celebrations, corporate transfers to milestone formals, our fleet represents the pinnacle of <strong>luxury car hire in Sydney</strong>. Each vehicle is meticulously maintained and presented to perfection, ensuring your experience is nothing short of extraordinary.\n        </div>\n\n        <div class=\"services-line\">\n            <span>Weddings</span> · <span>Transfers</span> · <span>Private Events</span> · <span>Formals</span> · <span>Corporate</span>\n        </div>\n\n        <div class=\"experience-grid\">\n            <div class=\"experience-item\">\n                <h3>Prestige</h3>\n                <p>The finest vehicles from the world&#8217;s most exclusive manufacturers</p>\n            </div>\n            <div class=\"experience-item\">\n                <h3>Service</h3>\n                <p>White-glove treatment and professional chauffeurs</p>\n            </div>\n            <div class=\"experience-item\">\n                <h3>Elegance</h3>\n                <p>Impeccably presented vehicles for your special occasion</p>\n            </div>\n            <div class=\"experience-item\">\n                <h3>Experience</h3>\n                <p>Creating unforgettable moments across Sydney</p>\n            </div>\n        </div>\n\n        <div class=\"fleet-grid\">\n            <!-- White Luxury Cars First -->\n            <div class=\"vehicle-card\">\n                <div class=\"vehicle-image\">\n                    <img decoding=\"async\" src=\"https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.41.05-PM.png\" alt=\"Rolls-Royce Ghost\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\" class=\"lazyload\" style=\"--smush-placeholder-width: 900px; --smush-placeholder-aspect-ratio: 900/585;\">\n                </div>\n                <div class=\"vehicle-content\">\n                    <h3 class=\"vehicle-name\">Rolls-Royce Ghost</h3>\n                    <div class=\"divider\"></div>\n                    <p class=\"vehicle-description\">The epitome of contemporary luxury. The Rolls-Royce Ghost combines effortless power with serene sophistication, offering a commanding presence and unmatched refinement for your most prestigious occasions.</p>\n                </div>\n            </div>\n\n            <div class=\"vehicle-card\">\n                <div class=\"vehicle-image\">\n                    <img decoding=\"async\" src=\"https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.08.17-PM.png\" alt=\"Rolls-Royce Dawn Convertible\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\" class=\"lazyload\" style=\"--smush-placeholder-width: 562px; --smush-placeholder-aspect-ratio: 562/298;\">\n                </div>\n                <div class=\"vehicle-content\">\n                    <h3 class=\"vehicle-name\">Rolls-Royce Dawn Convertible</h3>\n                    <div class=\"divider\"></div>\n                    <p class=\"vehicle-description\">The pinnacle of luxury motoring. The Rolls-Royce Dawn convertible combines open-air elegance with whisper-quiet performance and handcrafted perfection, offering an unparalleled sense of occasion and refinement for your wedding celebration.</p>\n                </div>\n            </div>\n\n            <div class=\"vehicle-card\">\n                <div class=\"vehicle-image\">\n                    <img decoding=\"async\" src=\"https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.19.36-PM.png\" alt=\"Mercedes-AMG G63\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\" class=\"lazyload\" style=\"--smush-placeholder-width: 914px; --smush-placeholder-aspect-ratio: 914/641;\">\n                </div>\n                <div class=\"vehicle-content\">\n                    <h3 class=\"vehicle-name\">Mercedes-AMG G63</h3>\n                    <div class=\"divider\"></div>\n                    <p class=\"vehicle-description\">The legendary G-Wagon reimagined with AMG performance. This iconic luxury SUV combines rugged presence with sophisticated elegance, offering commanding road presence and unmatched style for weddings and special events.</p>\n                </div>\n            </div>\n\n            <div class=\"vehicle-card\">\n                <div class=\"vehicle-image\">\n                    <img decoding=\"async\" src=\"https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.08.27-PM.png\" alt=\"Lamborghini Urus SUV\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\" class=\"lazyload\" style=\"--smush-placeholder-width: 561px; --smush-placeholder-aspect-ratio: 561/295;\">\n                </div>\n                <div class=\"vehicle-content\">\n                    <h3 class=\"vehicle-name\">Lamborghini Urus SUV</h3>\n                    <div class=\"divider\"></div>\n                    <p class=\"vehicle-description\">The world&#8217;s first Super Sport Utility Vehicle. Combining the soul of a sports car with the functionality of an SUV, the Urus delivers uncompromising luxury, exhilarating performance, and spacious comfort for your special day.</p>\n                </div>\n            </div>\n\n            <div class=\"vehicle-card\">\n                <div class=\"vehicle-image\">\n                    <img decoding=\"async\" src=\"https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.09.45-PM.png\" alt=\"Lamborghini Aventador Roadster SV\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\" class=\"lazyload\" style=\"--smush-placeholder-width: 564px; --smush-placeholder-aspect-ratio: 564/298;\">\n                </div>\n                <div class=\"vehicle-content\">\n                    <h3 class=\"vehicle-name\">Lamborghini Aventador Roadster SV</h3>\n                    <div class=\"divider\"></div>\n                    <p class=\"vehicle-description\">Pure Italian supercar drama. With its aggressive design, iconic scissor doors, and thunderous V12 engine, the Aventador Roadster SV commands attention and creates an unforgettable arrival that matches the significance of your wedding day.</p>\n                </div>\n            </div>\n\n            <div class=\"vehicle-card\">\n                <div class=\"vehicle-image\">\n                    <img decoding=\"async\" src=\"https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.06.17-PM.png\" alt=\"McLaren 720S\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\" class=\"lazyload\" style=\"--smush-placeholder-width: 912px; --smush-placeholder-aspect-ratio: 912/578;\">\n                </div>\n                <div class=\"vehicle-content\">\n                    <h3 class=\"vehicle-name\">McLaren 720S</h3>\n                    <div class=\"divider\"></div>\n                    <p class=\"vehicle-description\">Experience cutting-edge British engineering with the McLaren 720S. This supercar combines breathtaking performance with stunning design, featuring iconic dihedral doors that make an unforgettable entrance on your special day.</p>\n                </div>\n            </div>\n\n            <div class=\"vehicle-card\">\n                <div class=\"vehicle-image\">\n                    <img decoding=\"async\" src=\"https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.00.42-PM.png\" alt=\"Ferrari 812 Superfast\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\" class=\"lazyload\" style=\"--smush-placeholder-width: 891px; --smush-placeholder-aspect-ratio: 891/531;\">\n                </div>\n                <div class=\"vehicle-content\">\n                    <h3 class=\"vehicle-name\">Ferrari 812 Superfast</h3>\n                    <div class=\"divider\"></div>\n                    <p class=\"vehicle-description\">Feel the thrill of the iconic Ferrari, known for its speed, style, and unmistakable presence. The 812 Superfast represents the pinnacle of Italian automotive excellence, ideal for those who want to experience the ultimate in driving pleasure.</p>\n                </div>\n            </div>\n\n            <!-- Classic Cars -->\n            <div class=\"vehicle-card\">\n                <div class=\"vehicle-image\">\n                    <img decoding=\"async\" src=\"https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.08.03-PM.png\" alt=\"1961 Mercedes-Benz 220SE Coupe\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\" class=\"lazyload\" style=\"--smush-placeholder-width: 716px; --smush-placeholder-aspect-ratio: 716/459;\">\n                </div>\n                <div class=\"vehicle-content\">\n                    <h3 class=\"vehicle-name\">1961 Mercedes-Benz 220SE Coupe</h3>\n                    <div class=\"divider\"></div>\n                    <p class=\"vehicle-description\">Timeless elegance personified. This classic Mercedes-Benz represents the golden age of automotive design, combining vintage sophistication with refined luxury, offering a romantic and distinguished presence for your wedding celebration.</p>\n                </div>\n            </div>\n\n            <div class=\"vehicle-card\">\n                <div class=\"vehicle-image\">\n                    <img decoding=\"async\" src=\"https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.09.58-PM.png\" alt=\"Ford Mustang Shelby GT500\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\" class=\"lazyload\" style=\"--smush-placeholder-width: 561px; --smush-placeholder-aspect-ratio: 561/298;\">\n                </div>\n                <div class=\"vehicle-content\">\n                    <h3 class=\"vehicle-name\">Ford Mustang Shelby GT500</h3>\n                    <div class=\"divider\"></div>\n                    <p class=\"vehicle-description\">Legendary American muscle car with Hollywood fame. The Shelby GT500 combines aggressive styling with timeless appeal, making it the perfect choice for couples who appreciate automotive history and cinematic style.</p>\n                </div>\n            </div>\n\n            <div class=\"vehicle-card\">\n                <div class=\"vehicle-image\">\n                    <img decoding=\"async\" src=\"https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-10.55.19-PM.png\" alt=\"Dodge Charger R/T\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\" class=\"lazyload\" style=\"--smush-placeholder-width: 970px; --smush-placeholder-aspect-ratio: 970/528;\">\n                </div>\n                <div class=\"vehicle-content\">\n                    <h3 class=\"vehicle-name\">Dodge Charger R/T</h3>\n                    <div class=\"divider\"></div>\n                    <p class=\"vehicle-description\">Classic American muscle meets wedding elegance. The legendary Dodge Charger R/T delivers raw power and iconic styling, perfect for couples who want to make a bold statement with authentic vintage charm and timeless presence.</p>\n                </div>\n            </div>\n\n            <!-- Motorcycles -->\n            <div class=\"vehicle-card\">\n                <div class=\"vehicle-image\">\n                    <img decoding=\"async\" src=\"https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-10.53.03-PM.png\" alt=\"Harley-Davidson V-Rod Custom\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\" class=\"lazyload\" style=\"--smush-placeholder-width: 942px; --smush-placeholder-aspect-ratio: 942/563;\">\n                </div>\n                <div class=\"vehicle-content\">\n                    <h3 class=\"vehicle-name\">Harley-Davidson V-Rod Custom</h3>\n                    <div class=\"divider\"></div>\n                    <p class=\"vehicle-description\">Add a touch of adventure and unmistakable presence to your event with our custom Harley-Davidson V-Rod. Known for its striking design and commanding road presence, this bike provides a thrilling experience, perfect for leading your wedding procession with style.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"container\">\n        <div class=\"cta-section\">\n            <h2>Bespoke Service</h2>\n            <p>Ready to elevate your special occasion with the perfect luxury vehicle? Our dedicated team specializes in creating bespoke packages tailored to your exact requirements. Whether you&#8217;re planning an intimate wedding, a grand corporate event, a milestone formal, or require executive transfers across Sydney, we ensure every detail exceeds expectations.</p>\n            <p>At One360, we understand that luxury is in the details. From the moment you contact us to the final farewell, our commitment is to provide an experience that reflects the significance of your occasion. Each vehicle is prepared to showroom condition, and our professional service ensures a seamless, stress-free experience.</p>\n            \n            <a href=\"https://one360.com.au/book\" class=\"cta-button\">Arrange Your Experience</a>\n            \n            <p style=\"margin-top: 3rem; font-size: 1.1rem; color: #999999;\">Visit our Sydney showroom to experience our collection firsthand. Our specialists are available for private consultations to help you select the perfect vehicle for your occasion.</p>\n        </div>\n    </div>\n</body>\n</html>\n</div>\n</div>\n\n\n\n<h2 class=\"wp-block-heading has-text-align-center\">Get A Quote Now</h2>\n\n\n\n<p class=\"has-text-align-center has-contrast-color has-text-color has-link-color wp-elements-af3ceed3f016639107431fcac282983c\">Enter your details below to get a free quote!</p>\n\n\n\n<div class=\"wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex\">\n<div class=\"wp-block-column is-layout-flow wp-block-column-is-layout-flow\" style=\"flex-basis:100%\">\n\n<div class=\"hs-form-frame\" data-region=\"na1\" data-form-id=\"b73cc6e3-df86-43dd-9702-d0abd18c4d93\" data-portal-id=\"20932730\"></div>\n</div>\n</div>\n</div>",
+  "media": [
+    {
+      "sourceUrl": "https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-10.53.03-PM.png",
+      "localOriginal": null,
+      "alt": "Harley-Davidson V-Rod Custom",
+      "variants": []
+    },
+    {
+      "sourceUrl": "https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-10.55.19-PM.png",
+      "localOriginal": null,
+      "alt": "Dodge Charger R/T",
+      "variants": []
+    },
+    {
+      "sourceUrl": "https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.00.42-PM.png",
+      "localOriginal": null,
+      "alt": "Ferrari 812 Superfast",
+      "variants": []
+    },
+    {
+      "sourceUrl": "https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.06.17-PM.png",
+      "localOriginal": null,
+      "alt": "McLaren 720S",
+      "variants": []
+    },
+    {
+      "sourceUrl": "https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.08.03-PM.png",
+      "localOriginal": null,
+      "alt": "1961 Mercedes-Benz 220SE Coupe",
+      "variants": []
+    },
+    {
+      "sourceUrl": "https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.08.17-PM.png",
+      "localOriginal": null,
+      "alt": "Rolls-Royce Dawn Convertible",
+      "variants": []
+    },
+    {
+      "sourceUrl": "https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.08.27-PM.png",
+      "localOriginal": null,
+      "alt": "Lamborghini Urus SUV",
+      "variants": []
+    },
+    {
+      "sourceUrl": "https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.09.45-PM.png",
+      "localOriginal": null,
+      "alt": "Lamborghini Aventador Roadster SV",
+      "variants": []
+    },
+    {
+      "sourceUrl": "https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.09.58-PM.png",
+      "localOriginal": null,
+      "alt": "Ford Mustang Shelby GT500",
+      "variants": []
+    },
+    {
+      "sourceUrl": "https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.19.36-PM.png",
+      "localOriginal": null,
+      "alt": "Mercedes-AMG G63",
+      "variants": []
+    },
+    {
+      "sourceUrl": "https://one360.com.au/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-11.41.05-PM.png",
+      "localOriginal": null,
+      "alt": "Rolls-Royce Ghost",
+      "variants": []
+    }
+  ],
+  "faq": [],
+  "testimonials": [],
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Our Fleet",
+      "href": "/wedding-car-hire-sydney/"
+    }
+  ],
+  "internalLinks": [
+    "/book"
+  ],
+  "hasHubspotForm": false
+}

@@ -1,0 +1,73 @@
+.footer {
+  background: #f8f9fb;
+  border-top: 1px solid #e8ecf1;
+  margin-top: 4rem;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1rem 2rem;
+}
+
+.brandRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  width: 124px;
+  height: auto;
+}
+
+.description,
+.contact,
+.locations,
+.cta,
+.copyright {
+  text-align: center;
+  margin: 0.6rem auto;
+  max-width: 780px;
+}
+
+.description,
+.contact,
+.locations,
+.copyright {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.cta a {
+  color: #2f8b22;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  gap: 0.8rem;
+}
+
+.socials a {
+  color: #2f8b22;
+  text-decoration: none;
+  border: 1px solid rgba(47, 139, 34, 0.35);
+  border-radius: 999px;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.85rem;
+}
+
+.socials a:hover,
+.socials a:focus-visible {
+  color: #fff;
+  background: #2f8b22;
+}

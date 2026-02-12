@@ -1,0 +1,31 @@
+.breadcrumbs {
+  max-width: 1200px;
+  margin: 1rem auto 0;
+  padding: 0 1rem;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.84rem;
+  color: #60656c;
+}
+
+.link {
+  color: #44505f;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus-visible {
+  color: #2f8b22;
+}
+
+.separator {
+  opacity: 0.45;
+}

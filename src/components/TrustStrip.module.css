@@ -1,0 +1,48 @@
+.section {
+  max-width: 1200px;
+  margin: 2.4rem auto 0;
+  padding: 0 1rem;
+}
+
+.title {
+  margin: 0 0 0.8rem;
+  font-family: var(--font-body);
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  line-height: 1.2;
+}
+
+.quote {
+  margin: 0;
+  color: #394554;
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.logoGrid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+.logoCard {
+  border: 1px solid #e7edf3;
+  border-radius: 0.75rem;
+  padding: 0.55rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 900px) {
+  .logoGrid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}

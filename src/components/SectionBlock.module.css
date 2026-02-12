@@ -1,0 +1,19 @@
+.section {
+  max-width: 1200px;
+  margin: 2.2rem auto 0;
+  padding: 0 1rem;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: clamp(1.4rem, 2vw, 1.9rem);
+  line-height: 1.2;
+}
+
+.body {
+  margin-top: 0.7rem;
+  max-width: 72ch;
+  color: #2b333d;
+  line-height: 1.7;
+}

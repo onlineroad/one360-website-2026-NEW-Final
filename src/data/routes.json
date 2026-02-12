@@ -1,0 +1,188 @@
+{
+  "routes": [
+    {
+      "id": "home",
+      "route": "/",
+      "pageFile": "home.json",
+      "noindex": false,
+      "priority": 1,
+      "changefreq": "weekly"
+    },
+    {
+      "id": "wedding-car-hire-sydney",
+      "route": "/wedding-car-hire-sydney/",
+      "pageFile": "wedding-car-hire-sydney.json",
+      "noindex": false,
+      "priority": 0.8,
+      "changefreq": "weekly"
+    },
+    {
+      "id": "glambot-hire",
+      "route": "/glambot-hire/",
+      "pageFile": "glambot-hire.json",
+      "noindex": false,
+      "priority": 0.9,
+      "changefreq": "weekly"
+    },
+    {
+      "id": "brand-activations-sydney",
+      "route": "/brand-activations-sydney/",
+      "pageFile": "brand-activations-sydney.json",
+      "noindex": false,
+      "priority": 0.85,
+      "changefreq": "weekly"
+    },
+    {
+      "id": "corporate-photo-booth-hire",
+      "route": "/corporate-photo-booth-hire/",
+      "pageFile": "corporate-photo-booth-hire.json",
+      "noindex": false,
+      "priority": 0.85,
+      "changefreq": "weekly"
+    },
+    {
+      "id": "melbourne-360-video-booth-hire",
+      "route": "/melbourne-360-video-booth-hire/",
+      "pageFile": "melbourne-360-video-booth-hire.json",
+      "noindex": false,
+      "priority": 0.85,
+      "changefreq": "weekly"
+    },
+    {
+      "id": "sydney-360-video-booth-hire",
+      "route": "/sydney-360-video-booth-hire/",
+      "pageFile": "sydney-360-video-booth-hire.json",
+      "noindex": false,
+      "priority": 0.85,
+      "changefreq": "weekly"
+    },
+    {
+      "id": "locations",
+      "route": "/locations/",
+      "pageFile": "locations.json",
+      "noindex": false,
+      "priority": 0.6,
+      "changefreq": "monthly"
+    },
+    {
+      "id": "one360-revolve-green-screen-hire",
+      "route": "/one360-revolve-green-screen-hire/",
+      "pageFile": "one360-revolve-green-screen-hire.json",
+      "noindex": false,
+      "priority": 0.85,
+      "changefreq": "weekly"
+    },
+    {
+      "id": "360-video-booth-hire",
+      "route": "/360-video-booth-hire/",
+      "pageFile": "360-video-booth-hire.json",
+      "noindex": false,
+      "priority": 0.9,
+      "changefreq": "weekly"
+    },
+    {
+      "id": "book",
+      "route": "/book/",
+      "pageFile": "book.json",
+      "noindex": false,
+      "priority": 0.95,
+      "changefreq": "weekly"
+    },
+    {
+      "id": "360-photo-booth-hire-sydney",
+      "route": "/360-photo-booth-hire-sydney/",
+      "pageFile": "360-photo-booth-hire-sydney.json",
+      "noindex": false,
+      "priority": 0.85,
+      "changefreq": "weekly"
+    },
+    {
+      "id": "thank-you",
+      "route": "/thank-you/",
+      "pageFile": "thank-you.json",
+      "noindex": true,
+      "priority": 0.2,
+      "changefreq": "monthly"
+    },
+    {
+      "id": "sample-page",
+      "route": "/sample-page/",
+      "pageFile": "sample-page.json",
+      "noindex": true,
+      "priority": 0.1,
+      "changefreq": "monthly"
+    },
+    {
+      "id": "blogs",
+      "route": "/blogs/",
+      "pageFile": "blogs.json",
+      "noindex": false,
+      "priority": 0.75,
+      "changefreq": "weekly"
+    },
+    {
+      "id": "how-ai-tools-are-revolutionising-event-content-creation-in-australia",
+      "route": "/how-ai-tools-are-revolutionising-event-content-creation-in-australia/",
+      "pageFile": "how-ai-tools-are-revolutionising-event-content-creation-in-australia.json",
+      "noindex": false,
+      "priority": 0.65,
+      "changefreq": "monthly"
+    },
+    {
+      "id": "360-photo-booth-vs-traditional-photo-booth",
+      "route": "/360-photo-booth-vs-traditional-photo-booth/",
+      "pageFile": "360-photo-booth-vs-traditional-photo-booth.json",
+      "noindex": false,
+      "priority": 0.65,
+      "changefreq": "monthly"
+    },
+    {
+      "id": "how-one360-powered-onegos-smart-learning-launch",
+      "route": "/how-one360-powered-onegos-smart-learning-launch/",
+      "pageFile": "how-one360-powered-onegos-smart-learning-launch.json",
+      "noindex": false,
+      "priority": 0.65,
+      "changefreq": "monthly"
+    },
+    {
+      "id": "experience-the-ultimate-glambot-hire-in-sydney",
+      "route": "/experience-the-ultimate-glambot-hire-in-sydney/",
+      "pageFile": "experience-the-ultimate-glambot-hire-in-sydney.json",
+      "noindex": false,
+      "priority": 0.65,
+      "changefreq": "monthly"
+    },
+    {
+      "id": "why-glambot-is-the-ultimate-showstopper-for-your-next-event",
+      "route": "/why-glambot-is-the-ultimate-showstopper-for-your-next-event/",
+      "pageFile": "why-glambot-is-the-ultimate-showstopper-for-your-next-event.json",
+      "noindex": false,
+      "priority": 0.65,
+      "changefreq": "monthly"
+    },
+    {
+      "id": "birthday-celebrations-with-360-photo-booth-video-booth",
+      "route": "/birthday-celebrations-with-360-photo-booth-video-booth/",
+      "pageFile": "birthday-celebrations-with-360-photo-booth-video-booth.json",
+      "noindex": false,
+      "priority": 0.65,
+      "changefreq": "monthly"
+    },
+    {
+      "id": "elevate-your-event-with-360-video-booth-photo-booth-hire-in-sydney",
+      "route": "/elevate-your-event-with-360-video-booth-photo-booth-hire-in-sydney/",
+      "pageFile": "elevate-your-event-with-360-video-booth-photo-booth-hire-in-sydney.json",
+      "noindex": false,
+      "priority": 0.65,
+      "changefreq": "monthly"
+    }
+  ],
+  "excludedRoutes": [
+    "/cart/",
+    "/checkout/",
+    "/my-account/",
+    "/shop/",
+    "/product/*",
+    "/my-account/lost-password/"
+  ]
+}

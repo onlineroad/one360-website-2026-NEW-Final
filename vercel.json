@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "cleanUrls": false,
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/book", "destination": "/book/", "permanent": true },
+    { "source": "/category/blogs/", "destination": "/blogs/", "permanent": true },
+    { "source": "/cart/", "destination": "/book/", "permanent": true },
+    { "source": "/checkout/", "destination": "/book/", "permanent": true },
+    { "source": "/my-account/", "destination": "/book/", "permanent": true },
+    { "source": "/my-account/lost-password/", "destination": "/book/", "permanent": true },
+    { "source": "/shop/", "destination": "/book/", "permanent": true },
+    { "source": "/product/:slug*", "destination": "/book/", "permanent": true }
+  ]
+}

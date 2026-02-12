@@ -1,0 +1,28 @@
+.wrap {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.card {
+  border: 1px solid #e5ebf0;
+  border-radius: 1rem;
+  background: #fbfcfd;
+  padding: 1.2rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: var(--font-body);
+}
+
+.text {
+  margin: 0.6rem 0 0;
+  line-height: 1.7;
+  color: #33404d;
+}
+
+.link {
+  color: #2a8022;
+}

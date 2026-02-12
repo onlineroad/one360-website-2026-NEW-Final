@@ -1,0 +1,73 @@
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  background: radial-gradient(circle at 20% 10%, rgba(90, 186, 71, 0.2), transparent 50%),
+    linear-gradient(145deg, #0a0a0a, #161616 40%, #202020 100%);
+  color: #fff;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1rem 3.2rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+  margin: 0 0 0.65rem;
+  color: #80d96f;
+  font-weight: 700;
+}
+
+.title {
+  margin: 0;
+  max-width: 15ch;
+  font-family: var(--font-body);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.05;
+  font-weight: 800;
+}
+
+.intro {
+  max-width: 70ch;
+  margin: 1rem 0 0;
+  color: #e7e7e7;
+  line-height: 1.6;
+}
+
+.ctaRow {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.button,
+.secondary {
+  text-decoration: none;
+  border-radius: 999px;
+  padding: 0.62rem 1rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: transform 150ms ease;
+}
+
+.button {
+  background: #5aba47;
+  color: #0f2509;
+}
+
+.secondary {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #f1f1f1;
+}
+
+.button:hover,
+.secondary:hover,
+.button:focus-visible,
+.secondary:focus-visible {
+  transform: translateY(-1px);
+}

@@ -1,0 +1,35 @@
+.banner {
+  max-width: 1200px;
+  margin: 2.4rem auto 0;
+  padding: 0 1rem;
+}
+
+.inner {
+  background: linear-gradient(135deg, #f2fff0, #f8fff7);
+  border: 1px solid #dcefd8;
+  border-radius: 1rem;
+  padding: 1.2rem 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.text {
+  margin: 0;
+  color: #1f2a1d;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.button {
+  border: 0;
+  border-radius: 999px;
+  text-decoration: none;
+  background: #5aba47;
+  color: #0f2509;
+  padding: 0.58rem 0.95rem;
+  font-size: 0.86rem;
+  font-weight: 800;
+}

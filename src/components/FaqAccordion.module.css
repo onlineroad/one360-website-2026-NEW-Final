@@ -1,0 +1,35 @@
+.section {
+  background: #0e1114;
+  margin-top: 3rem;
+  padding: 3rem 1rem;
+}
+
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0 0 1.2rem;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: clamp(1.5rem, 2vw, 2.2rem);
+}
+
+.item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.summary {
+  cursor: pointer;
+  padding: 0.9rem 0;
+  color: #f2f2f2;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.answer {
+  padding: 0 0 1rem;
+  color: #d3d8de;
+  line-height: 1.7;
+}

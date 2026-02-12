@@ -1,0 +1,168 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.85rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+}
+
+.logo {
+  width: 132px;
+  height: auto;
+}
+
+.menuButton {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+.nav {
+  display: none;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.item {
+  position: relative;
+}
+
+.link {
+  color: #f9f9f9;
+  text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1;
+  padding: 0.35rem 0;
+  display: inline-block;
+}
+
+.link:hover,
+.link:focus-visible {
+  color: #5aba47;
+}
+
+.cta {
+  border: 1px solid #5aba47;
+  color: #5aba47;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 0.65rem);
+  left: 0;
+  min-width: 210px;
+  background: #0a0a0a;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  list-style: none;
+  margin: 0;
+  display: none;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+}
+
+.item:hover .dropdown,
+.item:focus-within .dropdown {
+  display: block;
+}
+
+.dropdown li + li {
+  margin-top: 0.2rem;
+}
+
+.dropdown a {
+  display: block;
+  color: #f1f1f1;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  padding: 0.45rem 0.5rem;
+}
+
+.dropdown a:hover,
+.dropdown a:focus-visible {
+  background: rgba(90, 186, 71, 0.12);
+  color: #5aba47;
+}
+
+.mobileNav {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.85rem 1rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mobileList,
+.mobileSubmenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mobileList > li + li {
+  margin-top: 0.6rem;
+}
+
+.mobileLink {
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 0.95rem;
+}
+
+.mobileLink:hover,
+.mobileLink:focus-visible {
+  color: #5aba47;
+}
+
+.mobileSubmenu {
+  margin-top: 0.35rem;
+  margin-left: 0.9rem;
+}
+
+.mobileSubmenu li + li {
+  margin-top: 0.3rem;
+}
+
+@media (min-width: 992px) {
+  .menuButton,
+  .mobileNav {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+  }
+}

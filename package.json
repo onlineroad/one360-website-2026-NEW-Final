@@ -1,0 +1,33 @@
+{
+  "name": "one360-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "scrape": "node scripts/scrape-one360.mjs",
+    "media:optimize": "node scripts/optimize-media.mjs",
+    "test": "echo \"No unit tests configured yet\"",
+    "test:e2e": "echo \"No e2e tests configured yet\""
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sharp": "^0.34.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^9.16.0",
+    "eslint-config-next": "^15.1.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,71 @@
+@import "../styles/theme.css";
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url("/fonts/Inter-VariableFont_slnt,wght.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/cardo_normal_400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cardo";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/cardo_italic_400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/cardo_normal_700.woff2") format("woff2");
+}
+
+:root {
+  --font-body: "Inter", sans-serif;
+  --font-heading: "Cardo", serif;
+  --bg: #ffffff;
+  --text: #161d27;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--text);
+  background: var(--bg);
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  min-height: 40vh;
+}
