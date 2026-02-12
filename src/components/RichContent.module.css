@@ -7,6 +7,7 @@
 .prose {
   color: #1d252f;
   line-height: 1.7;
+  font-size: 1rem;
 }
 
 .prose h2,
@@ -29,7 +30,7 @@
 .prose p,
 .prose li {
   font-size: 1rem;
-  color: #2b323c;
+  color: inherit;
 }
 
 .prose a {
@@ -64,6 +65,71 @@
 
 .prose :global(.wp-block-column) {
   grid-column: span 12;
+}
+
+.prose :global(.wp-block-group),
+.prose :global(.wp-block-columns),
+.prose :global(.wp-block-cover) {
+  margin: 1.1rem 0;
+}
+
+.prose :global(.wp-block-cover) {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.prose :global(.wp-block-cover__background) {
+  opacity: 0.42 !important;
+}
+
+.prose :global(.has-base-2-background-color),
+.prose :global(.has-contrast-3-background-color) {
+  border-radius: 0.9rem;
+}
+
+.prose :global(.has-base-2-background-color) {
+  background: #f4f7fb;
+}
+
+.prose :global(.has-contrast-background-color),
+.prose :global(.has-contrast-3-background-color),
+.prose :global([style*="background-color:#000"]),
+.prose :global([style*="background-color: #000"]) {
+  color: #f5f7fa;
+}
+
+.prose :global(.has-base-color),
+.prose :global(.has-base-2-color),
+.prose :global(.has-white-color) {
+  color: #f5f7fa;
+}
+
+.prose :global(.has-contrast-color),
+.prose :global(.has-contrast-1-color),
+.prose :global(.has-contrast-3-color) {
+  color: #1d252f;
+}
+
+.prose :global(.has-contrast-background-color) a,
+.prose :global(.has-contrast-3-background-color) a {
+  color: #88e879;
+}
+
+.prose :global(#reviews),
+.prose :global(#gallery),
+.prose :global(.instagram-gallery-feed),
+.prose :global(.wp-block-cb-carousel),
+.prose :global(.wp-block-cb-slide) {
+  display: none !important;
+}
+
+.prose :global(figure.wp-block-image:empty),
+.prose :global(figure:empty) {
+  display: none;
+}
+
+.prose img[src^="data:image/"] {
+  display: none;
 }
 
 @media (min-width: 900px) {

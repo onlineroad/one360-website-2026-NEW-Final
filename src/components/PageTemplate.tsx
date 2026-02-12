@@ -1,6 +1,6 @@
 import type { PageContent, SiteConfig } from "@/types/content";
 import { createBreadcrumbSchema, createFaqSchema, createLocalBusinessSchema } from "@/seo/schema";
-import { stripDetailsFromContent } from "@/utils/html";
+import { extractTestimonialsFromContent, stripDetailsFromContent } from "@/utils/html";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CtaBanner } from "@/components/CtaBanner";
 import { FaqAccordion } from "@/components/FaqAccordion";
@@ -48,6 +48,10 @@ export function PageTemplate({ page, site }: PageTemplateProps) {
       href: child.href,
       summary: serviceCardSummaries[child.href] ?? "Discover this ONE360 service."
     })) ?? [];
+  const testimonials =
+    page.testimonials && page.testimonials.length > 0
+      ? page.testimonials
+      : extractTestimonialsFromContent(page.contentHtml);
 
   return (
     <>
@@ -63,7 +67,7 @@ export function PageTemplate({ page, site }: PageTemplateProps) {
       <RichContent html={stripDetailsFromContent(page.contentHtml)} />
       {page.templateType === "service" || page.templateType === "landing" ? <TrustStrip /> : null}
       <MediaGallery media={page.media} title="Gallery" />
-      <Testimonials items={page.testimonials ?? []} />
+      <Testimonials items={testimonials} />
 
       {page.hasHubspotForm ? <HubspotFormEmbed /> : null}
       {!page.hasHubspotForm && page.route !== "/thank-you/" ? <CtaBanner /> : null}

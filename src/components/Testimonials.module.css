@@ -10,17 +10,21 @@
   font-size: clamp(1.4rem, 2vw, 1.8rem);
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 0.85rem;
+.viewport {
+  overflow: hidden;
+  border-radius: 0.95rem;
+  border: 1px solid #e6ebf0;
+  background: #f8fbff;
+}
+
+.track {
+  display: flex;
+  transition: transform 320ms ease-in-out;
 }
 
 .card {
-  border-radius: 0.9rem;
-  border: 1px solid #e6ebf0;
-  background: #f8fbff;
-  padding: 1rem;
+  min-width: 100%;
+  padding: 1.2rem;
 }
 
 .quote {
@@ -37,8 +41,43 @@
   font-weight: 700;
 }
 
-@media (min-width: 900px) {
-  .grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+.controls {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.controlButton {
+  border: 1px solid #d2dae3;
+  background: #fff;
+  color: #243140;
+  border-radius: 999px;
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}
+
+.controlButton:hover {
+  border-color: #5aba47;
+}
+
+.dots {
+  margin-top: 0.8rem;
+  display: flex;
+  gap: 0.35rem;
+}
+
+.dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 999px;
+  border: none;
+  background: #c6d0dc;
+  cursor: pointer;
+  padding: 0;
+}
+
+.dotActive {
+  background: #5aba47;
 }
