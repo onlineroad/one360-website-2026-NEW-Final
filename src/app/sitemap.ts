@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next";
 
 import { getRouteManifest, getSiteConfig } from "@/utils/content";
 
+export const dynamic = "force-static";
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [manifest, site] = await Promise.all([getRouteManifest(), getSiteConfig()]);
 
